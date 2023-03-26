@@ -6,7 +6,7 @@
 
 # Table of Contents
 
-## 👩🏽‍💻 Solve Business Problems with  Instagram Data
+## 👩🏽‍💻 Solve 10 Business Problems with  Instagram Data
 
 ---
 
