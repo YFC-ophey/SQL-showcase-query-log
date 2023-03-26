@@ -182,7 +182,7 @@ How do I keep both post tags and photo tags from a post at the same time?
     - Retrieves user information, including ID, username, and creation date, along with the number of likes received.
     - Calculates the ranking of each user based on the number of likes received, including their overall rank and dense rank.
     - Joins the subquery of users and likes tables and then groups the result by user.
-    - The **`WINDOW`** function is used to partition the data by `**PARTITION BY**`  the number of likes into groups of row.
+    - The **`WINDOW`** function is used to partition the data by **`PARTITION BY`**  the number of likes into groups of row.
         
         ![Snap_Q9.png](sql_showcase_query_log/Snap_Q9.png)
         
@@ -197,7 +197,7 @@ How do I keep both post tags and photo tags from a post at the same time?
 
 - **Request:** Find out users with more than 200 comments and higher followers engagement total above 5,000.
 - **Solution:**
-    - Use a **Common Table Expression** `**CTE**` to filter out popular users based on the number of followers we have in our dataset.
+    - Use a **Common Table Expression** **`CTE`** to filter out popular users based on the number of followers we have in our dataset.
     - Join the users and comments tables, and calculates the total number of comments and the number of comments with higher followers engagement.
     - Sort to display only users with more than 200 comments and higher followers engagement total above 5,000.
         
@@ -205,7 +205,7 @@ How do I keep both post tags and photo tags from a post at the same time?
         
 - **Insights:**
     - Based on the data above, the 13 users have exact equal number of comments and likes compared to their significant higher number of followers engagements. This indicates that they may not be genuine users, but rather fake accounts created for the purpose of artificially boosting engagement, which is a common tactic used by some marketers to create the appearance of popularity.
-    - It is crucial to query out these 13 users’ comments and engagements to ensure that our platform maintains its integrity and provides marketing team members with accurate data.We can better understand the true level of engagement that our content is receiving and make more informed decisions by removing fake accounts to improve the quality and credibility of our company.
+    - It is crucial to query out these 13 users’ comments and engagements to ensure that our platform maintains its integrity and provides marketing team members with accurate data. We can better understand the true level of engagement that our content is receiving and make more informed decisions by removing fake accounts to improve the quality and credibility of our company.
     
 
 # 💁🏽‍♀️ About Me
