@@ -88,7 +88,7 @@ How do I keep both post tags and photo tags from a post at the same time?
 
 - **Request:** Help marketing manager to identify the active users on on Instagram, which users are most likely to share content and engage with other users on the platform.
 - **Solution:**
-    - `**COUNT**` the number of distinct photo posts made by each user and based on the previous calculation of the_average_user_post temporary table (2.57 posts per user)
+    - **`COUNT`** the number of distinct photo posts made by each user and based on the previous calculation of the_average_user_post temporary table (2.57 posts per user)
     - Filter out only the "active" users who posted more frequently.
     
     ![Snap_Q2.png](sql_showcase_query_log/Snap_Q2.png)
@@ -101,8 +101,8 @@ How do I keep both post tags and photo tags from a post at the same time?
 
 - **Request:** Assist marketing manager to target out inactive users with a marketing campaign for higher engagement.
 - **Solution:**
-    - Use `**LEFT JOIN**` to identify where users table are not overlapping  photos table, allowing us to see the discrepancies in the data.
-    - Filter out inactive users with no photo_id record by using `**IS NULL**`.
+    - Use **`LEFT JOIN`** to identify where users table are not overlapping  photos table, allowing us to see the discrepancies in the data.
+    - Filter out inactive users with no photo_id record by using **`IS NULL`**.
     
     ![Snap_Q3.png](sql_showcase_query_log/Snap_Q3.png)
     
@@ -161,8 +161,8 @@ How do I keep both post tags and photo tags from a post at the same time?
 
 - **Request:** Solve a small problem with possible bots who have liked every single photo on Instagram.
 - **Solution:**
-    - When non-aggregated and aggregated fields both exists in a query, use `**GROUP BY**` to display the results.
-    - Use `**HAVING**` to further filters aggregated data.
+    - When non-aggregated and aggregated fields both exists in a query, use **`GROUP BY`** to display the results.
+    - Use **`HAVING`** to further filters aggregated data.
     - Use a subquery here to identify the number of all photos.
         
         ![Snap_Q8.png](sql_showcase_query_log/Snap_Q8.png)
