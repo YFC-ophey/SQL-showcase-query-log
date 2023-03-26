@@ -51,9 +51,6 @@ How do I keep both post tags and photo tags from a post at the same time?
 
 ---
 
-<aside>
-🥅 Click the Toggle “ ► ’’  on the left to expand more.
-
 </aside>
 
 ### 🔎 Check Out Tables
