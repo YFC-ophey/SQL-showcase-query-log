@@ -136,9 +136,9 @@ How do I keep both post tags and photo tags from a post at the same time?
 
 - **Request:** A new marketing campaign is to send giveaways to the winner who has the the most likes on a single photo.
 - **Solution:**
-    - `**INNER JOIN**` the photos table with the likes and users tables returning matching records.
+    - **`INNER JOIN`** the photos table with the likes and users tables returning matching records.
     - Calculates the number of likes for each photo, groups them by photo ID, and orders them in descending order.
-    - Use `**LIMIT**` to select the photo with the highest number of likes.
+    - Use **`LIMIT`** to select the photo with the highest number of likes.
         
         ![Snap_Q6.png](sql_showcase_query_log/Snap_Q6.png)
         
