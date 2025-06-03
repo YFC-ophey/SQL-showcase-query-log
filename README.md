@@ -209,9 +209,7 @@ How do I keep both post tags and photo tags from a post at the same time?
 
 ---
 
-*Hi there! I'm Ophelia, a post-grad business analytics student in 🇨🇦.* 
-
-*With a background in business development, I transitioned into data in 2022 and am currently continue learning Advanced SQL, Python, Tableau and Power BI.*
+*Hi there! I'm Ophelia, a Data Analyst with a background in entrepreneurship and law enforcement sectors, I transitioned into the tech industry as a data analyst in 2022. I thrive on taking initiative to deliver significant business wins using SQL, quantitative analysis, and BI tools like Tableau (certified).*
 
 **Connected With Me** 
 
